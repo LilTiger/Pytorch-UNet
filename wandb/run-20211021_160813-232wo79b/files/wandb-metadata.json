@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2021-10-21T08:08:16.462082",
+    "startedAt": "2021-10-21T08:08:13.507837",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:/Codes/Pytorch-UNet/train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://codechina.csdn.net/mirrors/milesial/Pytorch-UNet.git",
+        "commit": "db72295019a2114f4c84940d9aaf1232b2a23352"
+    },
+    "email": null,
+    "root": "D:/Codes/Pytorch-UNet",
+    "host": "LAPTOP-Q4LNCA13",
+    "username": "Lil Tiger",
+    "executable": "D:\\Codes\\Pytorch-UNet\\venv\\Scripts\\python.exe"
+}

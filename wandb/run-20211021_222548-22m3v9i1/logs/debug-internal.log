@@ -1,0 +1,1333 @@
+2021-10-21 22:25:48,821 INFO    MainThread:10820 [internal.py:wandb_internal():88] W&B internal server running at pid: 10820, started at: 2021-10-21 22:25:48.821032
+2021-10-21 22:25:48,823 INFO    WriterThread:10820 [datastore.py:open_for_write():77] open: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\run-22m3v9i1.wandb
+2021-10-21 22:25:48,823 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: check_version
+2021-10-21 22:25:48,824 DEBUG   SenderThread:10820 [sender.py:send():185] send: header
+2021-10-21 22:25:48,824 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: check_version
+2021-10-21 22:25:52,813 DEBUG   SenderThread:10820 [sender.py:send():185] send: run
+2021-10-21 22:25:52,815 INFO    SenderThread:10820 [sender.py:_maybe_setup_resume():450] checking resume status for None/U-Net/22m3v9i1
+2021-10-21 22:25:53,688 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: run_start
+2021-10-21 22:25:53,688 INFO    SenderThread:10820 [dir_watcher.py:__init__():169] watching files in: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files
+2021-10-21 22:25:53,688 INFO    SenderThread:10820 [sender.py:_start_run_threads():768] run started: 22m3v9i1 with start time 1634826348
+2021-10-21 22:25:53,688 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:25:53,688 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:25:53,697 DEBUG   HandlerThread:10820 [meta.py:__init__():40] meta init
+2021-10-21 22:25:53,697 DEBUG   HandlerThread:10820 [meta.py:__init__():54] meta init done
+2021-10-21 22:25:53,697 DEBUG   HandlerThread:10820 [meta.py:probe():212] probe
+2021-10-21 22:25:53,721 DEBUG   HandlerThread:10820 [meta.py:_setup_git():202] setup git
+2021-10-21 22:25:53,777 DEBUG   HandlerThread:10820 [meta.py:_setup_git():209] setup git done
+2021-10-21 22:25:53,777 DEBUG   HandlerThread:10820 [meta.py:_save_pip():58] save pip
+2021-10-21 22:25:53,778 DEBUG   HandlerThread:10820 [meta.py:_save_pip():72] save pip done
+2021-10-21 22:25:53,778 DEBUG   HandlerThread:10820 [meta.py:probe():250] probe done
+2021-10-21 22:25:53,781 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:25:53,782 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-metadata.json with policy now
+2021-10-21 22:25:53,786 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:25:53,787 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:25:54,211 DEBUG   SenderThread:10820 [sender.py:send():185] send: config
+2021-10-21 22:25:54,689 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:25:54,689 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-metadata.json
+2021-10-21 22:25:54,689 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\requirements.txt
+2021-10-21 22:25:54,690 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:25:54,975 INFO    Thread-17 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\137xt11q-wandb-metadata.json
+2021-10-21 22:25:56,430 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:25:56,430 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:25:56,431 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:25:56,707 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:25:56,707 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:25:58,258 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:25:58,259 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_1_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:25:58,259 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:25:58,259 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_1_86bc0904245df0cad117.png with policy now
+2021-10-21 22:25:58,260 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:25:58,260 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_1_1be5b8ace09826464fbb.png with policy now
+2021-10-21 22:25:58,292 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:25:58,307 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:25:58,318 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:25:58,505 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:25:58,505 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:25:58,515 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:25:58,742 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:25:58,742 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:25:58,743 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_1_43889428bd1ef7e94249.png
+2021-10-21 22:25:58,743 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_1_1be5b8ace09826464fbb.png
+2021-10-21 22:25:58,743 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_1_86bc0904245df0cad117.png
+2021-10-21 22:25:58,743 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:25:58,743 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media
+2021-10-21 22:25:59,315 INFO    Thread-19 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\m05kut3k-media/images/true_1_86bc0904245df0cad117.png
+2021-10-21 22:25:59,860 INFO    Thread-20 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1rpkp5ef-media/images/pred_1_1be5b8ace09826464fbb.png
+2021-10-21 22:25:59,935 INFO    Thread-18 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3j6p7kf0-media/images/images_1_43889428bd1ef7e94249.png
+2021-10-21 22:26:00,060 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:00,061 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_3_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:00,061 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:00,061 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_3_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:00,062 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:00,062 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_3_eedb580b73fdbf1919c7.png with policy now
+2021-10-21 22:26:00,087 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:00,102 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:00,113 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:00,153 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:00,153 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:00,164 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:00,759 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:00,759 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:00,760 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_3_eedb580b73fdbf1919c7.png
+2021-10-21 22:26:00,760 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_3_acf3409ff81d795348f7.png
+2021-10-21 22:26:00,760 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_3_5566c6e987ab93383810.png
+2021-10-21 22:26:00,760 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:01,129 INFO    Thread-22 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2ipxqbyo-media/images/true_3_5566c6e987ab93383810.png
+2021-10-21 22:26:01,692 INFO    Thread-21 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2jbh12kp-media/images/images_3_acf3409ff81d795348f7.png
+2021-10-21 22:26:01,719 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:01,719 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_5_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:01,720 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:01,720 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_5_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:01,721 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:01,721 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_5_95142b8faa845bb942a5.png with policy now
+2021-10-21 22:26:01,746 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:01,756 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:01,770 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:01,773 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:01,773 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_5_95142b8faa845bb942a5.png
+2021-10-21 22:26:01,773 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_5_acf3409ff81d795348f7.png
+2021-10-21 22:26:01,773 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_5_5566c6e987ab93383810.png
+2021-10-21 22:26:01,774 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:01,936 INFO    Thread-23 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1tuf60pd-media/images/pred_3_eedb580b73fdbf1919c7.png
+2021-10-21 22:26:01,992 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:01,992 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:02,002 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:02,780 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:02,781 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:03,135 INFO    Thread-25 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1jx40489-media/images/true_5_5566c6e987ab93383810.png
+2021-10-21 22:26:03,582 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:03,582 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_7_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:26:03,584 INFO    Thread-26 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2hihiig7-media/images/pred_5_95142b8faa845bb942a5.png
+2021-10-21 22:26:03,585 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:03,585 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_7_86bc0904245df0cad117.png with policy now
+2021-10-21 22:26:03,586 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:03,586 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_7_e47b0bce29f61981cd82.png with policy now
+2021-10-21 22:26:03,602 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:03,620 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:03,633 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:03,674 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:03,674 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:03,685 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:03,746 INFO    Thread-24 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2yr4s1ll-media/images/images_5_acf3409ff81d795348f7.png
+2021-10-21 22:26:03,789 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:03,790 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_7_e47b0bce29f61981cd82.png
+2021-10-21 22:26:03,790 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_7_43889428bd1ef7e94249.png
+2021-10-21 22:26:03,790 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_7_86bc0904245df0cad117.png
+2021-10-21 22:26:03,790 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:04,787 INFO    Thread-28 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\q09xoly9-media/images/true_7_86bc0904245df0cad117.png
+2021-10-21 22:26:04,794 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:05,264 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:05,264 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_9_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:05,265 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:05,265 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_9_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:05,266 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:05,266 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_9_fa1c18c0c488ebbcc94b.png with policy now
+2021-10-21 22:26:05,294 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:05,304 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:05,315 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:05,444 INFO    Thread-27 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\269qv3e4-media/images/images_7_43889428bd1ef7e94249.png
+2021-10-21 22:26:05,503 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:05,504 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:05,514 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:05,806 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:05,807 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_9_acf3409ff81d795348f7.png
+2021-10-21 22:26:05,807 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_9_5566c6e987ab93383810.png
+2021-10-21 22:26:05,807 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_9_fa1c18c0c488ebbcc94b.png
+2021-10-21 22:26:05,807 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:06,270 INFO    Thread-29 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\vl6zgapt-media/images/pred_7_e47b0bce29f61981cd82.png
+2021-10-21 22:26:06,827 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:07,089 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:07,089 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_11_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:07,090 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:07,090 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_11_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:07,091 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:07,091 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_11_015679bfe421c5c1d54f.png with policy now
+2021-10-21 22:26:07,111 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:07,134 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:07,145 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:07,183 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:07,183 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:07,193 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:07,611 INFO    Thread-30 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\cb3pd8he-media/images/images_9_acf3409ff81d795348f7.png
+2021-10-21 22:26:07,831 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:07,832 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_11_5566c6e987ab93383810.png
+2021-10-21 22:26:07,832 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_11_acf3409ff81d795348f7.png
+2021-10-21 22:26:07,832 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_11_015679bfe421c5c1d54f.png
+2021-10-21 22:26:07,832 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:07,854 INFO    Thread-31 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2jmhqf11-media/images/true_9_5566c6e987ab93383810.png
+2021-10-21 22:26:07,877 INFO    Thread-32 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\v1bo27ma-media/images/pred_9_fa1c18c0c488ebbcc94b.png
+2021-10-21 22:26:08,785 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:08,785 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_13_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:26:08,786 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:08,786 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_13_86bc0904245df0cad117.png with policy now
+2021-10-21 22:26:08,787 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:08,787 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_13_9d48dd53fe4c3dcadcd7.png with policy now
+2021-10-21 22:26:08,813 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:08,823 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:08,833 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:08,838 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:08,839 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:08,839 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_13_9d48dd53fe4c3dcadcd7.png
+2021-10-21 22:26:08,839 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_13_43889428bd1ef7e94249.png
+2021-10-21 22:26:08,839 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_13_86bc0904245df0cad117.png
+2021-10-21 22:26:08,839 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:08,945 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:08,945 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:08,958 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:09,215 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:26:09,215 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:26:09,692 INFO    Thread-33 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\38h5cfnb-media/images/images_11_acf3409ff81d795348f7.png
+2021-10-21 22:26:09,842 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:10,334 INFO    Thread-38 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\e0djvgl9-media/images/pred_13_9d48dd53fe4c3dcadcd7.png
+2021-10-21 22:26:10,336 INFO    Thread-37 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1q7qvzn7-media/images/true_13_86bc0904245df0cad117.png
+2021-10-21 22:26:10,453 INFO    Thread-36 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3llacexd-media/images/images_13_43889428bd1ef7e94249.png
+2021-10-21 22:26:10,550 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:10,550 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_15_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:26:10,551 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:10,551 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_15_86bc0904245df0cad117.png with policy now
+2021-10-21 22:26:10,552 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:10,552 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_15_bf2f65fe8c19154dee64.png with policy now
+2021-10-21 22:26:10,576 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:10,586 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:10,597 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:10,661 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:10,661 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:10,672 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:10,844 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:10,844 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:10,844 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_15_43889428bd1ef7e94249.png
+2021-10-21 22:26:10,844 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_15_86bc0904245df0cad117.png
+2021-10-21 22:26:10,844 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_15_bf2f65fe8c19154dee64.png
+2021-10-21 22:26:10,844 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:11,780 INFO    Thread-41 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\iuruzi73-media/images/pred_15_bf2f65fe8c19154dee64.png
+2021-10-21 22:26:12,124 INFO    Thread-39 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\12e6p622-media/images/images_15_43889428bd1ef7e94249.png
+2021-10-21 22:26:12,234 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:12,235 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_17_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:12,236 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:12,236 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_17_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:12,237 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:12,237 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_17_c1e6c9c63e8907b5bcd4.png with policy now
+2021-10-21 22:26:12,257 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:12,281 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:12,292 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:12,506 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:12,506 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:12,519 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:12,855 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:12,855 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:12,855 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_17_c1e6c9c63e8907b5bcd4.png
+2021-10-21 22:26:12,855 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_17_acf3409ff81d795348f7.png
+2021-10-21 22:26:12,855 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_17_5566c6e987ab93383810.png
+2021-10-21 22:26:12,855 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:13,300 INFO    Thread-34 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2k8amjfs-media/images/true_11_5566c6e987ab93383810.png
+2021-10-21 22:26:13,749 INFO    Thread-44 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\39fq59w5-media/images/pred_17_c1e6c9c63e8907b5bcd4.png
+2021-10-21 22:26:13,853 INFO    Thread-42 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1v0y6npz-media/images/images_17_acf3409ff81d795348f7.png
+2021-10-21 22:26:13,943 INFO    Thread-43 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\amj3cvh2-media/images/true_17_5566c6e987ab93383810.png
+2021-10-21 22:26:14,094 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:14,094 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_19_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:26:14,096 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:14,096 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_19_86bc0904245df0cad117.png with policy now
+2021-10-21 22:26:14,097 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:14,097 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_19_90bae0f6731e2be2c501.png with policy now
+2021-10-21 22:26:14,110 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:14,131 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:14,142 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:14,187 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:14,187 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:14,198 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:14,864 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:14,864 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:14,864 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_19_43889428bd1ef7e94249.png
+2021-10-21 22:26:14,864 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_19_86bc0904245df0cad117.png
+2021-10-21 22:26:14,864 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_19_90bae0f6731e2be2c501.png
+2021-10-21 22:26:14,864 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:15,148 INFO    Thread-46 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\jdlxrjq4-media/images/true_19_86bc0904245df0cad117.png
+2021-10-21 22:26:15,339 INFO    Thread-40 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1xlnszzb-media/images/true_15_86bc0904245df0cad117.png
+2021-10-21 22:26:15,651 INFO    Thread-47 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2zmfsjfb-media/images/pred_19_90bae0f6731e2be2c501.png
+2021-10-21 22:26:15,761 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:15,761 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_21_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:15,764 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:15,764 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_21_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:15,765 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:15,765 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_21_4dca047dbae698f78d69.png with policy now
+2021-10-21 22:26:15,789 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:15,805 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:15,820 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:15,866 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:15,867 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_21_acf3409ff81d795348f7.png
+2021-10-21 22:26:15,867 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_21_4dca047dbae698f78d69.png
+2021-10-21 22:26:15,867 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_21_5566c6e987ab93383810.png
+2021-10-21 22:26:15,867 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:16,794 INFO    Thread-49 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1m3921a3-media/images/true_21_5566c6e987ab93383810.png
+2021-10-21 22:26:16,878 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:17,036 INFO    Thread-45 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\mqdroiww-media/images/images_19_43889428bd1ef7e94249.png
+2021-10-21 22:26:17,259 INFO    Thread-50 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3bgkesx2-media/images/pred_21_4dca047dbae698f78d69.png
+2021-10-21 22:26:17,434 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:17,434 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:17,445 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:17,608 INFO    Thread-48 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\17aijqt0-media/images/images_21_acf3409ff81d795348f7.png
+2021-10-21 22:26:17,885 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:18,899 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:19,614 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:19,614 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_23_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:26:19,615 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:19,615 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_23_86bc0904245df0cad117.png with policy now
+2021-10-21 22:26:19,616 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:19,616 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_23_2902dc23fd4930f12a71.png with policy now
+2021-10-21 22:26:19,617 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:19,627 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:19,640 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:19,641 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:19,641 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:19,652 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:19,911 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:19,911 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\config.yaml
+2021-10-21 22:26:19,912 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_23_43889428bd1ef7e94249.png
+2021-10-21 22:26:19,912 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_23_2902dc23fd4930f12a71.png
+2021-10-21 22:26:19,912 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_23_86bc0904245df0cad117.png
+2021-10-21 22:26:19,912 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:20,536 INFO    Thread-35 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2nvocd47-media/images/pred_11_015679bfe421c5c1d54f.png
+2021-10-21 22:26:20,627 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:20,627 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_25_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:20,629 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:20,629 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_25_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:20,630 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:20,630 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_25_807689045b68b5727b07.png with policy now
+2021-10-21 22:26:20,646 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:20,663 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:20,664 INFO    Thread-52 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\4n8fcrxn-media/images/true_23_86bc0904245df0cad117.png
+2021-10-21 22:26:20,674 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:20,719 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:20,719 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:20,730 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:20,927 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:20,927 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:20,927 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_25_acf3409ff81d795348f7.png
+2021-10-21 22:26:20,927 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_25_5566c6e987ab93383810.png
+2021-10-21 22:26:20,927 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_25_807689045b68b5727b07.png
+2021-10-21 22:26:20,928 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:21,142 INFO    Thread-51 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2xw6l1kw-media/images/images_23_43889428bd1ef7e94249.png
+2021-10-21 22:26:21,211 INFO    Thread-53 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\5og0ljhk-media/images/pred_23_2902dc23fd4930f12a71.png
+2021-10-21 22:26:22,092 INFO    Thread-54 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\a4117h7m-media/images/images_25_acf3409ff81d795348f7.png
+2021-10-21 22:26:22,139 INFO    Thread-56 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\imbx6ntb-media/images/pred_25_807689045b68b5727b07.png
+2021-10-21 22:26:22,229 INFO    Thread-55 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2sugl7t1-media/images/true_25_5566c6e987ab93383810.png
+2021-10-21 22:26:22,329 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:22,329 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_27_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:22,331 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:22,332 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_27_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:22,334 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:22,334 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_27_223fbea0d01c3582b9eb.png with policy now
+2021-10-21 22:26:22,347 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:22,375 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:22,388 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:22,590 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:22,590 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:22,600 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:22,956 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:22,956 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:22,956 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_27_223fbea0d01c3582b9eb.png
+2021-10-21 22:26:22,957 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_27_acf3409ff81d795348f7.png
+2021-10-21 22:26:22,957 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_27_5566c6e987ab93383810.png
+2021-10-21 22:26:22,957 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:23,846 INFO    Thread-59 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\19o3se5h-media/images/pred_27_223fbea0d01c3582b9eb.png
+2021-10-21 22:26:23,960 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:24,106 INFO    Thread-57 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1vad7jl6-media/images/images_27_acf3409ff81d795348f7.png
+2021-10-21 22:26:24,197 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:24,198 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_29_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:26:24,200 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:24,200 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_29_86bc0904245df0cad117.png with policy now
+2021-10-21 22:26:24,202 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:24,202 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_29_193fb0d8dd9233aee4f7.png with policy now
+2021-10-21 22:26:24,223 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:24,234 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:24,244 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:24,281 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:24,281 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:24,292 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:24,599 INFO    Thread-58 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3i2wgvkl-media/images/true_27_5566c6e987ab93383810.png
+2021-10-21 22:26:24,875 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:26:24,962 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:24,962 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_29_43889428bd1ef7e94249.png
+2021-10-21 22:26:24,962 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_29_193fb0d8dd9233aee4f7.png
+2021-10-21 22:26:24,962 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_29_86bc0904245df0cad117.png
+2021-10-21 22:26:24,962 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:25,493 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:26:25,493 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:26:25,781 INFO    Thread-62 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2rgbuqbc-media/images/pred_29_193fb0d8dd9233aee4f7.png
+2021-10-21 22:26:25,972 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:25,983 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:25,984 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_31_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:26:25,985 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:25,985 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_31_86bc0904245df0cad117.png with policy now
+2021-10-21 22:26:25,987 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:25,987 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_31_ce17c2af929ad64bf72f.png with policy now
+2021-10-21 22:26:26,002 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:26,023 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:26,034 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:26,184 INFO    Thread-61 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1covunyh-media/images/true_29_86bc0904245df0cad117.png
+2021-10-21 22:26:26,229 INFO    Thread-60 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3kvfg7it-media/images/images_29_43889428bd1ef7e94249.png
+2021-10-21 22:26:26,291 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:26,292 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:26,302 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:26,987 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:26,987 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_31_43889428bd1ef7e94249.png
+2021-10-21 22:26:26,988 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_31_86bc0904245df0cad117.png
+2021-10-21 22:26:26,988 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_31_ce17c2af929ad64bf72f.png
+2021-10-21 22:26:26,988 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:27,002 INFO    Thread-64 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2uv627st-media/images/true_31_86bc0904245df0cad117.png
+2021-10-21 22:26:27,229 INFO    Thread-65 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3gb2dj2g-media/images/pred_31_ce17c2af929ad64bf72f.png
+2021-10-21 22:26:27,432 INFO    Thread-63 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1aiwxpg5-media/images/images_31_43889428bd1ef7e94249.png
+2021-10-21 22:26:27,863 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:27,863 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_33_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:27,866 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:27,866 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_33_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:27,868 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:27,868 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_33_ea2c8b0f3a2b3cc3de06.png with policy now
+2021-10-21 22:26:27,891 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:27,902 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:27,915 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:27,951 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:27,951 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:27,965 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:28,001 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:28,001 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:28,002 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_33_acf3409ff81d795348f7.png
+2021-10-21 22:26:28,002 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_33_5566c6e987ab93383810.png
+2021-10-21 22:26:28,002 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_33_ea2c8b0f3a2b3cc3de06.png
+2021-10-21 22:26:28,002 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:29,259 INFO    Thread-67 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\35clo8tr-media/images/true_33_5566c6e987ab93383810.png
+2021-10-21 22:26:29,372 INFO    Thread-66 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\vgo5d5qp-media/images/images_33_acf3409ff81d795348f7.png
+2021-10-21 22:26:29,529 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:29,529 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_35_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:26:29,531 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:29,531 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_35_86bc0904245df0cad117.png with policy now
+2021-10-21 22:26:29,533 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:29,533 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_35_b99860b035aa8b225f20.png with policy now
+2021-10-21 22:26:29,555 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:29,567 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:29,578 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:29,808 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:29,808 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:29,819 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:30,021 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:30,021 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:30,021 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_35_43889428bd1ef7e94249.png
+2021-10-21 22:26:30,022 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_35_86bc0904245df0cad117.png
+2021-10-21 22:26:30,022 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_35_b99860b035aa8b225f20.png
+2021-10-21 22:26:30,022 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:30,806 INFO    Thread-71 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3gkinvj9-media/images/pred_35_b99860b035aa8b225f20.png
+2021-10-21 22:26:31,009 INFO    Thread-68 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3uyonj0j-media/images/pred_33_ea2c8b0f3a2b3cc3de06.png
+2021-10-21 22:26:31,337 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:31,337 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_37_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:31,340 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:31,340 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_37_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:31,341 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:31,341 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_37_e99327cd53b75fbdda3a.png with policy now
+2021-10-21 22:26:31,366 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:31,378 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:31,392 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:31,421 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:31,421 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:31,432 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:31,444 INFO    Thread-69 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1pbcfdrp-media/images/images_35_43889428bd1ef7e94249.png
+2021-10-21 22:26:32,055 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:32,055 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:32,055 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_37_acf3409ff81d795348f7.png
+2021-10-21 22:26:32,056 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_37_5566c6e987ab93383810.png
+2021-10-21 22:26:32,056 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_37_e99327cd53b75fbdda3a.png
+2021-10-21 22:26:32,056 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:32,214 INFO    Thread-70 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\31m3o5mk-media/images/true_35_86bc0904245df0cad117.png
+2021-10-21 22:26:32,343 INFO    Thread-73 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\30tm3tu4-media/images/true_37_5566c6e987ab93383810.png
+2021-10-21 22:26:33,036 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:33,036 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_39_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:33,039 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:33,039 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_39_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:33,041 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:33,041 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_39_5e15f41b8ccd2fea7dc1.png with policy now
+2021-10-21 22:26:33,054 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:33,076 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:33,089 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:33,094 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:33,094 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_39_5566c6e987ab93383810.png
+2021-10-21 22:26:33,094 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_39_5e15f41b8ccd2fea7dc1.png
+2021-10-21 22:26:33,094 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_39_acf3409ff81d795348f7.png
+2021-10-21 22:26:33,095 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:33,179 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:33,179 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:33,193 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:33,997 INFO    Thread-74 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1udb4c9r-media/images/pred_37_e99327cd53b75fbdda3a.png
+2021-10-21 22:26:34,099 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:34,099 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:34,113 INFO    Thread-76 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\289sqld5-media/images/true_39_5566c6e987ab93383810.png
+2021-10-21 22:26:34,845 INFO    Thread-77 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\j0xc163p-media/images/pred_39_5e15f41b8ccd2fea7dc1.png
+2021-10-21 22:26:34,880 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:34,880 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_41_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:26:34,882 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:34,883 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_41_86bc0904245df0cad117.png with policy now
+2021-10-21 22:26:34,884 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:34,884 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_41_8af59c14834e14ae77ca.png with policy now
+2021-10-21 22:26:34,909 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:34,929 INFO    Thread-75 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2wiy5oyb-media/images/images_39_acf3409ff81d795348f7.png
+2021-10-21 22:26:34,929 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:34,943 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:35,111 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:35,112 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_41_86bc0904245df0cad117.png
+2021-10-21 22:26:35,112 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_41_8af59c14834e14ae77ca.png
+2021-10-21 22:26:35,112 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_41_43889428bd1ef7e94249.png
+2021-10-21 22:26:35,112 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:35,168 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:35,168 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:35,179 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:35,895 INFO    Thread-79 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2tbbao5k-media/images/true_41_86bc0904245df0cad117.png
+2021-10-21 22:26:35,906 INFO    Thread-72 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\ot0talrt-media/images/images_37_acf3409ff81d795348f7.png
+2021-10-21 22:26:36,114 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:36,115 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:36,429 INFO    Thread-80 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\121vazrk-media/images/pred_41_8af59c14834e14ae77ca.png
+2021-10-21 22:26:36,765 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:36,765 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_43_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:36,767 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:36,767 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_43_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:36,769 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:36,769 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_43_e90aada67118cede2ee4.png with policy now
+2021-10-21 22:26:36,789 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:36,810 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:36,822 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:37,075 INFO    Thread-78 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\c58bz99m-media/images/images_41_43889428bd1ef7e94249.png
+2021-10-21 22:26:37,119 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:37,120 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_43_5566c6e987ab93383810.png
+2021-10-21 22:26:37,120 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_43_acf3409ff81d795348f7.png
+2021-10-21 22:26:37,120 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_43_e90aada67118cede2ee4.png
+2021-10-21 22:26:37,120 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:38,131 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:38,358 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:38,358 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:38,368 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:38,727 INFO    Thread-81 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3tmd61t0-media/images/images_43_acf3409ff81d795348f7.png
+2021-10-21 22:26:38,858 INFO    Thread-82 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\7upm3cjd-media/images/true_43_5566c6e987ab93383810.png
+2021-10-21 22:26:39,009 INFO    Thread-83 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\11lelx6d-media/images/pred_43_e90aada67118cede2ee4.png
+2021-10-21 22:26:39,135 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:39,937 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:39,937 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_45_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:39,940 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:39,940 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_45_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:39,942 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:39,942 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_45_680a0ca485054dedddeb.png with policy now
+2021-10-21 22:26:39,964 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:39,974 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:39,984 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:40,142 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:40,143 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:40,143 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_45_acf3409ff81d795348f7.png
+2021-10-21 22:26:40,143 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_45_680a0ca485054dedddeb.png
+2021-10-21 22:26:40,143 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_45_5566c6e987ab93383810.png
+2021-10-21 22:26:40,143 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:40,156 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:40,156 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:40,167 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:40,906 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:26:40,906 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:26:41,145 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:41,430 INFO    Thread-85 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1qz3ut3u-media/images/true_45_5566c6e987ab93383810.png
+2021-10-21 22:26:41,777 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:41,777 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_47_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:41,780 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:41,780 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_47_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:41,781 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:41,782 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_47_1fcb7354de40e71f3ca4.png with policy now
+2021-10-21 22:26:41,800 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:41,820 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:41,832 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:41,859 INFO    Thread-84 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1y4ermk1-media/images/images_45_acf3409ff81d795348f7.png
+2021-10-21 22:26:41,891 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:41,892 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:41,903 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:42,159 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:42,159 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:42,159 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_47_5566c6e987ab93383810.png
+2021-10-21 22:26:42,159 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_47_acf3409ff81d795348f7.png
+2021-10-21 22:26:42,159 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_47_1fcb7354de40e71f3ca4.png
+2021-10-21 22:26:42,159 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:42,989 INFO    Thread-88 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\m6hdd3hi-media/images/true_47_5566c6e987ab93383810.png
+2021-10-21 22:26:43,395 INFO    Thread-86 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\33cd697q-media/images/pred_45_680a0ca485054dedddeb.png
+2021-10-21 22:26:43,527 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:43,527 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_49_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:26:43,529 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:43,529 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_49_86bc0904245df0cad117.png with policy now
+2021-10-21 22:26:43,531 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:43,531 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_49_475a988a641d503e5d31.png with policy now
+2021-10-21 22:26:43,551 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:43,564 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:43,576 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:43,584 INFO    Thread-87 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\101w3v7h-media/images/images_47_acf3409ff81d795348f7.png
+2021-10-21 22:26:43,627 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:43,627 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:43,638 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:43,663 INFO    Thread-89 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\rbab7kp6-media/images/pred_47_1fcb7354de40e71f3ca4.png
+2021-10-21 22:26:44,177 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:44,177 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:44,177 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_49_43889428bd1ef7e94249.png
+2021-10-21 22:26:44,177 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_49_86bc0904245df0cad117.png
+2021-10-21 22:26:44,177 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_49_475a988a641d503e5d31.png
+2021-10-21 22:26:44,177 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:44,841 INFO    Thread-92 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2b3xh84g-media/images/pred_49_475a988a641d503e5d31.png
+2021-10-21 22:26:44,947 INFO    Thread-90 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\ifzpeagh-media/images/images_49_43889428bd1ef7e94249.png
+2021-10-21 22:26:45,294 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:45,294 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_51_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:26:45,296 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:45,296 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_51_86bc0904245df0cad117.png with policy now
+2021-10-21 22:26:45,298 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:45,298 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_51_e28a24ffa2b510593f0a.png with policy now
+2021-10-21 22:26:45,321 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:45,332 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:45,343 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:45,616 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:45,617 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:45,627 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:46,198 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:46,198 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:46,198 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_51_e28a24ffa2b510593f0a.png
+2021-10-21 22:26:46,198 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_51_86bc0904245df0cad117.png
+2021-10-21 22:26:46,198 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_51_43889428bd1ef7e94249.png
+2021-10-21 22:26:46,198 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:46,657 INFO    Thread-94 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3f28s4bi-media/images/true_51_86bc0904245df0cad117.png
+2021-10-21 22:26:46,813 INFO    Thread-93 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2rg54xqx-media/images/images_51_43889428bd1ef7e94249.png
+2021-10-21 22:26:47,287 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:47,287 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_53_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:47,291 INFO    Thread-95 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\17sd6acp-media/images/pred_51_e28a24ffa2b510593f0a.png
+2021-10-21 22:26:47,291 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:47,291 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_53_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:47,294 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:47,295 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_53_29078785def7b5ec17df.png with policy now
+2021-10-21 22:26:47,308 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:47,332 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:47,345 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:47,373 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:47,374 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:47,385 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:48,232 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:48,232 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:48,232 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_53_acf3409ff81d795348f7.png
+2021-10-21 22:26:48,232 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_53_29078785def7b5ec17df.png
+2021-10-21 22:26:48,232 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_53_5566c6e987ab93383810.png
+2021-10-21 22:26:48,232 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:48,789 INFO    Thread-96 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3s8eib06-media/images/images_53_acf3409ff81d795348f7.png
+2021-10-21 22:26:49,078 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:49,079 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_55_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:26:49,082 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:49,082 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_55_86bc0904245df0cad117.png with policy now
+2021-10-21 22:26:49,084 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:49,084 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_55_bf10c2d9ec026810116b.png with policy now
+2021-10-21 22:26:49,099 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:49,121 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:49,132 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:49,227 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:49,227 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:49,238 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:49,241 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:49,241 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_55_bf10c2d9ec026810116b.png
+2021-10-21 22:26:49,241 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_55_43889428bd1ef7e94249.png
+2021-10-21 22:26:49,242 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_55_86bc0904245df0cad117.png
+2021-10-21 22:26:49,242 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:50,120 INFO    Thread-100:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3kvp4g67-media/images/true_55_86bc0904245df0cad117.png
+2021-10-21 22:26:50,244 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:50,291 INFO    Thread-97 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\88yuvo3j-media/images/true_53_5566c6e987ab93383810.png
+2021-10-21 22:26:50,624 INFO    Thread-99 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1676lhhw-media/images/images_55_43889428bd1ef7e94249.png
+2021-10-21 22:26:50,885 INFO    Thread-98 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\gzndg991-media/images/pred_53_29078785def7b5ec17df.png
+2021-10-21 22:26:50,969 INFO    Thread-101:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1ync32nn-media/images/pred_55_bf10c2d9ec026810116b.png
+2021-10-21 22:26:50,969 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:50,969 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_57_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:26:50,972 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:50,972 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_57_86bc0904245df0cad117.png with policy now
+2021-10-21 22:26:50,974 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:50,974 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_57_5daf727bbdc09284ec43.png with policy now
+2021-10-21 22:26:50,991 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:51,012 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:51,025 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:51,249 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:51,250 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:51,261 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:51,263 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:51,263 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_57_5daf727bbdc09284ec43.png
+2021-10-21 22:26:51,263 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_57_43889428bd1ef7e94249.png
+2021-10-21 22:26:51,263 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_57_86bc0904245df0cad117.png
+2021-10-21 22:26:51,264 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:52,275 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:52,283 INFO    Thread-104:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\23bw1f7c-media/images/pred_57_5daf727bbdc09284ec43.png
+2021-10-21 22:26:52,321 INFO    Thread-103:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\15zz3r0u-media/images/true_57_86bc0904245df0cad117.png
+2021-10-21 22:26:52,900 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:52,900 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_59_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:52,903 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:52,903 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_59_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:52,906 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:52,906 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_59_d0f9844116bdc5f01a61.png with policy now
+2021-10-21 22:26:52,932 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:52,946 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:52,963 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:52,996 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:52,996 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:53,013 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:53,286 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:53,286 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_59_5566c6e987ab93383810.png
+2021-10-21 22:26:53,286 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_59_d0f9844116bdc5f01a61.png
+2021-10-21 22:26:53,286 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_59_acf3409ff81d795348f7.png
+2021-10-21 22:26:53,287 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:53,491 INFO    Thread-91 :10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\w7ijcieh-media/images/true_49_86bc0904245df0cad117.png
+2021-10-21 22:26:53,678 INFO    Thread-102:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1ng0hh0i-media/images/images_57_43889428bd1ef7e94249.png
+2021-10-21 22:26:54,321 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:54,629 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:54,629 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_61_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:54,632 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:54,632 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_61_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:54,634 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:54,634 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_61_7707116d0e209d5911b1.png with policy now
+2021-10-21 22:26:54,678 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:54,689 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:54,702 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:54,738 INFO    Thread-105:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\dijkro9b-media/images/images_59_acf3409ff81d795348f7.png
+2021-10-21 22:26:54,776 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:54,776 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:54,788 INFO    Thread-107:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2gxz3yhj-media/images/pred_59_d0f9844116bdc5f01a61.png
+2021-10-21 22:26:54,789 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:55,334 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:55,334 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_61_7707116d0e209d5911b1.png
+2021-10-21 22:26:55,334 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_61_5566c6e987ab93383810.png
+2021-10-21 22:26:55,334 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_61_acf3409ff81d795348f7.png
+2021-10-21 22:26:55,334 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:56,040 INFO    Thread-109:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1iswdaqm-media/images/true_61_5566c6e987ab93383810.png
+2021-10-21 22:26:56,096 INFO    Thread-106:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1vxstop1-media/images/true_59_5566c6e987ab93383810.png
+2021-10-21 22:26:56,329 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:26:56,330 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:26:56,341 INFO    Thread-108:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2bwk0jbl-media/images/images_61_acf3409ff81d795348f7.png
+2021-10-21 22:26:56,347 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:56,431 INFO    Thread-110:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\33foktfb-media/images/pred_61_7707116d0e209d5911b1.png
+2021-10-21 22:26:57,064 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:57,064 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_63_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:26:57,067 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:57,067 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_63_86bc0904245df0cad117.png with policy now
+2021-10-21 22:26:57,069 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:57,069 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_63_d909b4ffa1ae7b3d17a6.png with policy now
+2021-10-21 22:26:57,074 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:57,086 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:57,097 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:57,098 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:57,098 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:57,110 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:57,349 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:26:57,349 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_63_d909b4ffa1ae7b3d17a6.png
+2021-10-21 22:26:57,349 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_63_86bc0904245df0cad117.png
+2021-10-21 22:26:57,349 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_63_43889428bd1ef7e94249.png
+2021-10-21 22:26:57,350 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:26:58,163 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:26:58,352 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:26:58,407 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:58,408 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_65_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:26:58,412 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:58,412 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_65_5566c6e987ab93383810.png with policy now
+2021-10-21 22:26:58,415 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:26:58,415 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_65_514d09011fa68831048f.png with policy now
+2021-10-21 22:26:58,428 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:26:58,457 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:26:58,476 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:26:58,656 INFO    Thread-113:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\bbqnzpbt-media/images/pred_63_d909b4ffa1ae7b3d17a6.png
+2021-10-21 22:26:59,260 INFO    Thread-111:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\352u3pot-media/images/images_63_43889428bd1ef7e94249.png
+2021-10-21 22:26:59,462 INFO    Thread-115:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1dy496fm-media/images/true_65_5566c6e987ab93383810.png
+2021-10-21 22:26:59,543 INFO    Thread-112:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\30iugvfz-media/images/true_63_86bc0904245df0cad117.png
+2021-10-21 22:27:00,211 INFO    Thread-114:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1xkmv7s0-media/images/images_65_acf3409ff81d795348f7.png
+2021-10-21 22:27:00,298 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:00,298 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:00,310 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:00,356 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:27:00,367 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:27:00,368 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_65_5566c6e987ab93383810.png
+2021-10-21 22:27:00,368 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_65_514d09011fa68831048f.png
+2021-10-21 22:27:00,368 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_65_acf3409ff81d795348f7.png
+2021-10-21 22:27:00,368 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:27:00,643 INFO    Thread-116:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1172q9je-media/images/pred_65_514d09011fa68831048f.png
+2021-10-21 22:27:02,121 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:02,121 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_67_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:27:02,125 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:02,125 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_67_5566c6e987ab93383810.png with policy now
+2021-10-21 22:27:02,127 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:02,128 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_67_c65c04c49fecd6586212.png with policy now
+2021-10-21 22:27:02,154 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:02,168 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:02,184 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:02,362 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:27:02,362 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:27:02,362 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_67_5566c6e987ab93383810.png
+2021-10-21 22:27:02,362 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_67_c65c04c49fecd6586212.png
+2021-10-21 22:27:02,363 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_67_acf3409ff81d795348f7.png
+2021-10-21 22:27:02,363 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:27:02,372 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:02,372 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:02,383 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:03,967 INFO    Thread-117:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\18wf1l1f-media/images/images_67_acf3409ff81d795348f7.png
+2021-10-21 22:27:04,027 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:04,027 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_69_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:27:04,031 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:04,031 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_69_5566c6e987ab93383810.png with policy now
+2021-10-21 22:27:04,034 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:04,034 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_69_5a8ec2166490f4540474.png with policy now
+2021-10-21 22:27:04,063 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:04,076 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:04,090 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:04,121 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:04,122 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:04,136 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:04,191 INFO    Thread-118:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3t4acemf-media/images/true_67_5566c6e987ab93383810.png
+2021-10-21 22:27:04,372 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:27:04,372 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:27:04,373 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_69_5566c6e987ab93383810.png
+2021-10-21 22:27:04,373 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_69_5a8ec2166490f4540474.png
+2021-10-21 22:27:04,373 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_69_acf3409ff81d795348f7.png
+2021-10-21 22:27:04,373 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:27:05,495 INFO    Thread-122:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\22zkvyo8-media/images/pred_69_5a8ec2166490f4540474.png
+2021-10-21 22:27:05,802 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:05,802 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_71_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:27:05,805 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:05,806 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_71_86bc0904245df0cad117.png with policy now
+2021-10-21 22:27:05,808 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:05,809 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_71_e9fd44b4d610210bfb90.png with policy now
+2021-10-21 22:27:05,834 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:05,844 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:05,856 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:05,953 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:05,953 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:05,964 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:06,254 INFO    Thread-119:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\18aq1mor-media/images/pred_67_c65c04c49fecd6586212.png
+2021-10-21 22:27:06,329 INFO    Thread-120:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2nmcqkgh-media/images/images_69_acf3409ff81d795348f7.png
+2021-10-21 22:27:06,384 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:27:06,384 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:27:06,385 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_71_e9fd44b4d610210bfb90.png
+2021-10-21 22:27:06,385 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_71_86bc0904245df0cad117.png
+2021-10-21 22:27:06,385 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_71_43889428bd1ef7e94249.png
+2021-10-21 22:27:06,385 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:27:06,613 INFO    Thread-121:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\sohx8ao7-media/images/true_69_5566c6e987ab93383810.png
+2021-10-21 22:27:07,077 INFO    Thread-125:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\ug4v9v6r-media/images/pred_71_e9fd44b4d610210bfb90.png
+2021-10-21 22:27:07,606 INFO    Thread-123:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\qj3h7uuq-media/images/images_71_43889428bd1ef7e94249.png
+2021-10-21 22:27:07,637 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:07,637 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_73_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:27:07,640 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:07,641 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_73_5566c6e987ab93383810.png with policy now
+2021-10-21 22:27:07,644 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:07,644 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_73_27646254a2d7cda888e8.png with policy now
+2021-10-21 22:27:07,677 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:07,690 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:07,703 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:07,936 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:07,937 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:07,947 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:08,269 INFO    Thread-124:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1u4bcqc8-media/images/true_71_86bc0904245df0cad117.png
+2021-10-21 22:27:08,400 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:27:08,401 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:27:08,401 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_73_acf3409ff81d795348f7.png
+2021-10-21 22:27:08,401 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_73_27646254a2d7cda888e8.png
+2021-10-21 22:27:08,401 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_73_5566c6e987ab93383810.png
+2021-10-21 22:27:08,401 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:27:09,056 INFO    Thread-127:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2eqtakmm-media/images/true_73_5566c6e987ab93383810.png
+2021-10-21 22:27:09,502 INFO    Thread-126:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1b10o8pj-media/images/images_73_acf3409ff81d795348f7.png
+2021-10-21 22:27:09,600 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:09,600 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_75_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:27:09,603 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:09,603 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_75_5566c6e987ab93383810.png with policy now
+2021-10-21 22:27:09,606 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:09,606 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_75_1edd0afa369ece0c42dc.png with policy now
+2021-10-21 22:27:09,634 INFO    Thread-128:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2czw0q5p-media/images/pred_73_27646254a2d7cda888e8.png
+2021-10-21 22:27:09,636 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:09,651 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:09,662 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:09,686 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:09,687 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:09,698 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:10,417 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:27:10,418 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:27:10,418 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_75_5566c6e987ab93383810.png
+2021-10-21 22:27:10,418 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_75_acf3409ff81d795348f7.png
+2021-10-21 22:27:10,418 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_75_1edd0afa369ece0c42dc.png
+2021-10-21 22:27:10,419 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:27:10,651 INFO    Thread-130:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2kzz397f-media/images/true_75_5566c6e987ab93383810.png
+2021-10-21 22:27:11,213 INFO    Thread-131:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\jytz4cqw-media/images/pred_75_1edd0afa369ece0c42dc.png
+2021-10-21 22:27:11,313 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:11,313 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_77_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:27:11,317 INFO    Thread-129:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1ac6jqua-media/images/images_75_acf3409ff81d795348f7.png
+2021-10-21 22:27:11,318 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:11,318 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_77_86bc0904245df0cad117.png with policy now
+2021-10-21 22:27:11,322 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:11,322 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_77_b3742998dd129530f5a8.png with policy now
+2021-10-21 22:27:11,347 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:11,360 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:11,373 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:11,450 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:11,450 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:11,471 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:12,069 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:27:12,069 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:27:12,434 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:27:12,435 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:27:12,435 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_77_86bc0904245df0cad117.png
+2021-10-21 22:27:12,435 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_77_43889428bd1ef7e94249.png
+2021-10-21 22:27:12,435 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_77_b3742998dd129530f5a8.png
+2021-10-21 22:27:12,435 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:27:12,588 INFO    Thread-134:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\uly1cegr-media/images/pred_77_b3742998dd129530f5a8.png
+2021-10-21 22:27:12,888 INFO    Thread-133:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\ndkzdpd0-media/images/true_77_86bc0904245df0cad117.png
+2021-10-21 22:27:13,101 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:13,101 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_79_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:27:13,105 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:13,105 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_79_86bc0904245df0cad117.png with policy now
+2021-10-21 22:27:13,109 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:13,109 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_79_da21a24ba5ad71ba4c7d.png with policy now
+2021-10-21 22:27:13,133 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:13,142 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:13,157 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:13,222 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:13,223 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:13,237 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:14,375 INFO    Thread-137:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2vckgwrw-media/images/pred_79_da21a24ba5ad71ba4c7d.png
+2021-10-21 22:27:14,437 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:27:14,437 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:27:14,437 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_79_da21a24ba5ad71ba4c7d.png
+2021-10-21 22:27:14,437 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_79_43889428bd1ef7e94249.png
+2021-10-21 22:27:14,437 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_79_86bc0904245df0cad117.png
+2021-10-21 22:27:14,437 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:27:14,586 INFO    Thread-135:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2bwma07t-media/images/images_79_43889428bd1ef7e94249.png
+2021-10-21 22:27:14,880 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:14,880 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_81_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:27:14,884 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:14,884 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_81_86bc0904245df0cad117.png with policy now
+2021-10-21 22:27:14,887 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:14,887 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_81_9a14bdb8a709e4d552b5.png with policy now
+2021-10-21 22:27:14,914 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:14,925 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:14,938 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:14,940 INFO    Thread-136:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3c3mjz71-media/images/true_79_86bc0904245df0cad117.png
+2021-10-21 22:27:14,981 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:14,981 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:14,991 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:15,202 INFO    Thread-132:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\39qxruve-media/images/images_77_43889428bd1ef7e94249.png
+2021-10-21 22:27:16,450 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:27:16,451 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:27:16,451 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_81_86bc0904245df0cad117.png
+2021-10-21 22:27:16,451 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_81_43889428bd1ef7e94249.png
+2021-10-21 22:27:16,451 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_81_9a14bdb8a709e4d552b5.png
+2021-10-21 22:27:16,451 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:27:16,647 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:16,647 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_83_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:27:16,651 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:16,651 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_83_5566c6e987ab93383810.png with policy now
+2021-10-21 22:27:16,655 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:16,655 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_83_ea36f03b8d6cb52cc019.png with policy now
+2021-10-21 22:27:16,684 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:16,696 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:16,708 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:16,736 INFO    Thread-140:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\38ra4jhg-media/images/pred_81_9a14bdb8a709e4d552b5.png
+2021-10-21 22:27:16,899 INFO    Thread-139:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2kr1z6fx-media/images/true_81_86bc0904245df0cad117.png
+2021-10-21 22:27:16,973 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:16,973 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:16,983 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:17,788 INFO    Thread-138:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\34busbr5-media/images/images_81_43889428bd1ef7e94249.png
+2021-10-21 22:27:17,921 INFO    Thread-142:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2cm8emzc-media/images/true_83_5566c6e987ab93383810.png
+2021-10-21 22:27:18,098 INFO    Thread-141:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3d3hegyi-media/images/images_83_acf3409ff81d795348f7.png
+2021-10-21 22:27:18,166 INFO    Thread-143:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\isfw8ikm-media/images/pred_83_ea36f03b8d6cb52cc019.png
+2021-10-21 22:27:18,466 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:27:18,466 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:27:18,467 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_83_acf3409ff81d795348f7.png
+2021-10-21 22:27:18,467 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_83_ea36f03b8d6cb52cc019.png
+2021-10-21 22:27:18,467 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_83_5566c6e987ab93383810.png
+2021-10-21 22:27:18,467 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:27:18,642 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:18,642 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_85_acf3409ff81d795348f7.png with policy now
+2021-10-21 22:27:18,646 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:18,646 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_85_5566c6e987ab93383810.png with policy now
+2021-10-21 22:27:18,649 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:18,649 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_85_ff680c0960bf3c77997b.png with policy now
+2021-10-21 22:27:18,678 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:18,690 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:18,702 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:18,728 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:18,728 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:18,741 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:19,683 INFO    Thread-145:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2o24z9ks-media/images/true_85_5566c6e987ab93383810.png
+2021-10-21 22:27:20,471 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:27:20,472 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:27:20,472 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_85_5566c6e987ab93383810.png
+2021-10-21 22:27:20,472 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_85_acf3409ff81d795348f7.png
+2021-10-21 22:27:20,472 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_85_ff680c0960bf3c77997b.png
+2021-10-21 22:27:20,472 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:27:20,491 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:20,491 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\images_87_43889428bd1ef7e94249.png with policy now
+2021-10-21 22:27:20,495 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:20,495 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\true_87_86bc0904245df0cad117.png with policy now
+2021-10-21 22:27:20,499 DEBUG   SenderThread:10820 [sender.py:send():185] send: files
+2021-10-21 22:27:20,499 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file media\images\pred_87_79ad5174bb6b324d7825.png with policy now
+2021-10-21 22:27:20,532 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:20,547 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:20,561 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:21,331 INFO    Thread-144:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\17vivf7f-media/images/images_85_acf3409ff81d795348f7.png
+2021-10-21 22:27:21,335 INFO    Thread-146:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\3dvajv2n-media/images/pred_85_ff680c0960bf3c77997b.png
+2021-10-21 22:27:21,515 INFO    Thread-148:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\2fliru53-media/images/true_87_86bc0904245df0cad117.png
+2021-10-21 22:27:22,115 INFO    Thread-149:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\1uhccu8b-media/images/pred_87_79ad5174bb6b324d7825.png
+2021-10-21 22:27:22,159 DEBUG   SenderThread:10820 [sender.py:send():185] send: history
+2021-10-21 22:27:22,160 DEBUG   SenderThread:10820 [sender.py:send():185] send: summary
+2021-10-21 22:27:22,171 INFO    SenderThread:10820 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-21 22:27:22,475 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:27:22,475 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\wandb-summary.json
+2021-10-21 22:27:22,475 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\true_87_86bc0904245df0cad117.png
+2021-10-21 22:27:22,475 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\pred_87_79ad5174bb6b324d7825.png
+2021-10-21 22:27:22,475 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images\images_87_43889428bd1ef7e94249.png
+2021-10-21 22:27:22,476 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\media\images
+2021-10-21 22:27:22,517 INFO    Thread-147:10820 [upload_job.py:push():137] Uploaded file C:\Users\LILTIG~1\AppData\Local\Temp\tmpul3lni4swandb\32m80k1i-media/images/images_87_43889428bd1ef7e94249.png
+2021-10-21 22:27:24,480 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:27:26,487 INFO    Thread-12 :10820 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Codes\Pytorch-UNet\wandb\run-20211021_222548-22m3v9i1\files\output.log
+2021-10-21 22:27:27,791 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:27:27,791 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:27:31,469 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:27:43,234 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:27:43,235 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:27:59,018 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:27:59,018 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:28:04,492 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:28:14,454 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:28:14,454 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:28:30,004 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:28:30,004 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:28:37,506 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:28:45,660 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:28:45,661 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:29:01,445 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:29:01,445 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:29:10,439 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:29:17,471 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:29:17,471 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:29:29,750 WARNING FileStreamThread:10820 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: ('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)). func: <bound method Session.post of <requests.sessions.Session object at 0x000002372232F7F0>>, args: ('https://api.wandb.ai/files/anony-moose-147023/U-Net/22m3v9i1/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 5, 'content': ['{"system.gpu.0.gpu": 0.0, "system.gpu.0.memory": 0.0, "system.gpu.0.memoryAllocated": 37.67, "system.gpu.0.temp": 53.07, "system.gpu.process.0.gpu": 0.0, "system.gpu.process.0.memory": 0.0, "system.gpu.process.0.memoryAllocated": 37.67, "system.gpu.process.0.temp": 53.07, "system.cpu": 5.99, "system.memory": 66.5, "system.disk": 72.8, "system.proc.memory.availableMB": 5380.4, "system.proc.memory.rssMB": 76.5, "system.proc.memory.percent": 0.48, "system.proc.cpu.threads": 30.0, "system.network.sent": 30173969, "system.network.recv": 8759214, "_wandb": true, "_timestamp": 1634826550, "_runtime": 202}']}}, 'dropped': 0}}
+2021-10-21 22:29:32,934 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:29:32,934 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:29:43,483 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:29:48,351 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:29:48,352 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:30:03,771 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:30:03,771 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:30:16,766 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:30:19,188 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:30:19,188 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:30:34,617 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:30:34,617 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:30:50,047 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:30:50,312 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:30:50,312 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:31:06,431 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:31:06,431 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:31:23,367 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:31:26,460 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:31:26,460 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:31:42,018 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:31:42,018 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:31:56,277 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:31:58,426 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:31:58,426 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:32:13,858 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:32:13,859 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:32:29,329 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:32:29,617 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:32:29,617 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:32:45,050 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:32:45,051 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:33:00,975 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:33:00,975 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:33:11,860 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:33:20,999 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:33:20,999 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:33:35,886 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:33:36,861 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:33:36,861 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:33:52,273 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:33:52,273 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:34:08,787 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:34:08,787 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:34:11,367 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:34:26,370 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:34:26,370 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:34:42,196 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:34:42,629 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:34:42,630 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:34:58,076 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:34:58,076 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:35:13,504 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:35:13,505 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:35:15,128 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:35:28,967 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:35:28,967 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:35:44,409 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:35:44,409 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:35:48,007 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:35:59,866 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:35:59,867 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:36:15,297 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:36:15,297 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:36:20,982 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:36:30,751 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:36:30,751 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:36:46,190 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:36:46,190 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:36:53,935 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:37:01,587 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:37:01,587 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:37:17,050 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:37:17,050 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:37:26,995 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:37:32,945 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:37:32,945 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:37:48,382 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:37:48,382 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:37:59,957 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:38:04,258 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:38:04,258 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:38:19,658 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:38:19,658 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:38:32,970 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:38:35,399 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:38:35,399 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:38:50,973 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:38:50,973 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:39:05,923 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:39:06,755 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:39:06,756 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:39:22,563 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:39:22,564 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:39:37,994 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:39:37,994 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:39:38,865 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:39:53,438 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:39:53,438 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:40:08,978 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:40:08,978 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:40:13,846 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:40:28,859 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:40:28,860 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:40:44,359 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:40:44,359 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:40:45,560 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:41:00,566 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:41:00,566 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:41:15,990 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:41:15,990 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:41:17,806 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:41:31,431 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:41:31,431 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:41:46,846 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:41:46,846 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:41:50,751 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:42:02,913 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:42:02,913 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:42:18,318 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:42:18,318 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:42:23,754 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:42:33,708 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:42:33,708 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:42:52,246 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:42:52,246 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:42:58,025 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:43:12,266 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:43:12,266 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:43:27,696 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:43:27,696 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:43:29,607 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:43:43,134 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:43:43,134 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:43:58,899 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:43:58,899 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:44:02,584 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:44:14,398 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:44:14,398 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:44:29,842 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:44:29,842 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:44:35,520 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:44:45,252 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:44:45,252 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:45:00,789 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:45:00,789 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:45:08,490 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:45:16,911 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:45:16,911 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:45:30,723 WARNING FileStreamThread:10820 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: ('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)). func: <bound method Session.post of <requests.sessions.Session object at 0x000002372232F7F0>>, args: ('https://api.wandb.ai/files/anony-moose-147023/U-Net/22m3v9i1/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 33, 'content': ['{"system.gpu.0.gpu": 0.0, "system.gpu.0.memory": 5.67, "system.gpu.0.memoryAllocated": 88.78, "system.gpu.0.temp": 52.93, "system.gpu.process.0.gpu": 0.0, "system.gpu.process.0.memory": 5.67, "system.gpu.process.0.memoryAllocated": 88.78, "system.gpu.process.0.temp": 52.93, "system.cpu": 4.07, "system.memory": 86.88, "system.disk": 72.8, "system.proc.memory.availableMB": 2107.16, "system.proc.memory.rssMB": 51.55, "system.proc.memory.percent": 0.32, "system.proc.cpu.threads": 30.0, "system.network.sent": 104525232, "system.network.recv": 95708205, "_wandb": true, "_timestamp": 1634827475, "_runtime": 1127}']}}, 'dropped': 0}}
+2021-10-21 22:45:32,354 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:45:32,354 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:45:41,463 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:45:48,891 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:45:48,891 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:46:04,333 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:46:04,334 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:46:14,432 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:46:19,766 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:46:19,766 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:46:35,179 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:46:35,179 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:46:47,407 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:46:50,594 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:46:50,594 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:47:09,154 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:47:09,155 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:47:20,444 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:47:24,590 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:47:24,591 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:47:40,016 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:47:40,016 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:47:53,444 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:47:55,532 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:47:55,532 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:48:10,977 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:48:10,977 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:48:26,464 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:48:27,454 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:48:27,454 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:48:43,031 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:48:43,032 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:48:58,768 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:48:58,768 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:48:59,439 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:49:14,218 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:49:14,219 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:49:29,975 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:49:29,975 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:49:32,468 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:49:45,508 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:49:45,508 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:50:02,380 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:50:02,380 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:50:05,528 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:50:17,970 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:50:17,970 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:50:33,723 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:50:33,724 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:50:38,616 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:50:49,643 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:50:49,644 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:51:05,088 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:51:05,089 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:51:11,663 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:51:20,827 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:51:20,827 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:51:36,352 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:51:36,353 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:51:44,753 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:51:51,768 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:51:51,768 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:52:07,470 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:52:07,470 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:52:17,849 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:52:22,878 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:52:22,878 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:52:38,665 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:52:38,665 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:52:50,928 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:52:54,073 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:52:54,074 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:53:09,486 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:53:09,486 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:53:24,008 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:53:25,218 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:53:25,218 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:53:40,722 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:53:40,722 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:53:56,159 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:53:56,159 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:53:57,092 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:54:11,574 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:54:11,574 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:54:27,572 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:54:27,572 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:54:37,587 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:54:47,580 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:54:47,580 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:55:03,013 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:55:03,013 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:55:03,485 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:55:18,486 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:55:18,486 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:55:36,065 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:55:36,519 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:55:36,519 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:55:52,303 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:55:52,303 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:56:08,444 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:56:08,444 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:56:11,000 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:56:26,015 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:56:26,016 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:56:41,474 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:56:41,475 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:56:46,347 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:57:01,347 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:57:01,348 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:57:15,142 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:57:16,771 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:57:16,771 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:57:32,189 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:57:32,190 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:57:48,310 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:57:48,722 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:57:48,722 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:58:04,501 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:58:04,501 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:58:19,919 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:58:19,919 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:58:21,316 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:58:35,670 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:58:35,670 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:58:51,077 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:58:51,077 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:58:54,394 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:59:06,778 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:59:06,778 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:59:22,204 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:59:22,204 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:59:27,499 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 22:59:37,643 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:59:37,644 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 22:59:53,081 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 22:59:53,081 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:00:00,702 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 23:00:08,545 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:00:08,546 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:00:26,303 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:00:26,303 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:00:33,801 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 23:00:42,794 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:00:42,794 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:00:58,556 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:00:58,556 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:01:06,951 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 23:01:14,051 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:01:14,051 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:01:29,611 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:01:29,612 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:01:40,083 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 23:01:45,331 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:01:45,332 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:02:00,820 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:02:00,820 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:02:13,162 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 23:02:16,226 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:02:16,226 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:02:31,895 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:02:31,895 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:02:46,418 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 23:02:47,322 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:02:47,322 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:03:03,866 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:03:03,866 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:03:19,280 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:03:19,281 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:03:19,691 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 23:03:34,698 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:03:34,698 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:03:50,505 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:03:50,505 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:03:52,506 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 23:04:06,330 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:04:06,330 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:04:21,786 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:04:21,786 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status
+2021-10-21 23:04:25,552 DEBUG   SenderThread:10820 [sender.py:send():185] send: stats
+2021-10-21 23:04:37,441 DEBUG   HandlerThread:10820 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-21 23:04:37,441 DEBUG   SenderThread:10820 [sender.py:send_request():199] send_request: stop_status

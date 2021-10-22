@@ -1,0 +1,23 @@
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   2
+        Validation size: 0
+        Checkpoints:     True
+        Device:          cpu
+        Images scaling:  0.5
+        Mixed Precision: False
+Epoch 1/5:  50%|█████     | 1/2 [00:02<00:02,  2.72s/img, loss (batch)=1.24]
+Traceback (most recent call last):
+  File "C:\Users\Lil Tiger\AppData\Local\Programs\Python\Python39\lib\code.py", line 90, in runcode
+    exec(code, self.locals)
+  File "<input>", line 1, in <module>
+  File "C:\Program Files\JetBrains\PyCharm 2021.2.2\plugins\python\helpers\pydev\_pydev_bundle\pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm 2021.2.2\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Codes/Pytorch-UNet/train.py", line 182, in <module>
+    train_net(net=net,
+  File "D:/Codes/Pytorch-UNet/train.py", line 114, in train_net
+    if global_step % (n_train // (10 * batch_size)) == 0:

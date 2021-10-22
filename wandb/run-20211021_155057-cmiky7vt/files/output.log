@@ -1,0 +1,43 @@
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   1
+        Validation size: 0
+        Checkpoints:     True
+        Device:          cpu
+        Images scaling:  0.5
+        Mixed Precision: False
+Epoch 1/5:   0%|          | 0/1 [00:01<?, ?img/s]
+Traceback (most recent call last):
+  File "C:\Users\Lil Tiger\AppData\Local\Programs\Python\Python39\lib\code.py", line 90, in runcode
+    exec(code, self.locals)
+  File "<input>", line 1, in <module>
+  File "C:\Program Files\JetBrains\PyCharm 2021.2.2\plugins\python\helpers\pydev\_pydev_bundle\pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm 2021.2.2\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Codes/Pytorch-UNet/train.py", line 182, in <module>
+    train_net(net=net,
+  File "D:/Codes/Pytorch-UNet/train.py", line 79, in train_net
+    for batch in train_loader:
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\torch\utils\data\dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\torch\utils\data\dataloader.py", line 1203, in _next_data
+    return self._process_data(data)
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\torch\utils\data\dataloader.py", line 1229, in _process_data
+    data.reraise()
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\torch\_utils.py", line 425, in reraise
+    raise self.exc_type(msg)
+AssertionError: Caught AssertionError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\torch\utils\data\_utils\worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\torch\utils\data\_utils\fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\torch\utils\data\_utils\fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\torch\utils\data\dataset.py", line 311, in __getitem__
+    return self.dataset[self.indices[idx]]
+  File "D:\Codes\Pytorch-UNet\utils\data_loading.py", line 61, in __getitem__
+    assert len(mask_file) == 1, f'Either no mask or multiple masks found for the ID {name}: {mask_file}'

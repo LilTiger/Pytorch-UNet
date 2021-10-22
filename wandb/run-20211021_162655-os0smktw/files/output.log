@@ -1,0 +1,29 @@
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   2
+        Validation size: 0
+        Checkpoints:     True
+        Device:          cpu
+        Images scaling:  0.5
+        Mixed Precision: False
+Epoch 1/5:   0%|          | 0/2 [00:01<?, ?img/s]
+Traceback (most recent call last):
+  File "C:\Users\Lil Tiger\AppData\Local\Programs\Python\Python39\lib\code.py", line 90, in runcode
+    exec(code, self.locals)
+  File "<input>", line 1, in <module>
+  File "C:\Program Files\JetBrains\PyCharm 2021.2.2\plugins\python\helpers\pydev\_pydev_bundle\pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm 2021.2.2\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/Codes/Pytorch-UNet/train.py", line 182, in <module>
+    train_net(net=net,
+  File "D:/Codes/Pytorch-UNet/train.py", line 93, in train_net
+    loss = criterion(masks_pred, true_masks) \
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\torch\nn\modules\module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\torch\nn\modules\loss.py", line 1120, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\torch\nn\functional.py", line 2824, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index)

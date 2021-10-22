@@ -1,0 +1,80 @@
+2021-10-21 22:13:40,818 INFO    MainThread:19932 [wandb_setup.py:_flush():71] setting env: {}
+2021-10-21 22:13:40,818 INFO    MainThread:19932 [wandb_setup.py:_flush():71] setting login settings: {'anonymous': 'must'}
+2021-10-21 22:13:40,818 INFO    MainThread:19932 [wandb_init.py:_log_setup():357] Logging user logs to D:\Codes\Pytorch-UNet\wandb\run-20211021_221340-2trbezrn\logs\debug.log
+2021-10-21 22:13:40,818 INFO    MainThread:19932 [wandb_init.py:_log_setup():358] Logging internal logs to D:\Codes\Pytorch-UNet\wandb\run-20211021_221340-2trbezrn\logs\debug-internal.log
+2021-10-21 22:13:40,819 INFO    MainThread:19932 [wandb_init.py:init():390] calling init triggers
+2021-10-21 22:13:40,819 INFO    MainThread:19932 [wandb_init.py:init():395] wandb.init called with sweep_config: {}
+config: {}
+2021-10-21 22:13:40,819 INFO    MainThread:19932 [wandb_init.py:init():435] starting backend
+2021-10-21 22:13:40,819 INFO    MainThread:19932 [backend.py:_multiprocessing_setup():94] multiprocessing start_methods=spawn, using: spawn
+2021-10-21 22:13:40,823 INFO    MainThread:19932 [backend.py:ensure_launched():198] starting backend process...
+2021-10-21 22:13:41,019 INFO    MainThread:19932 [backend.py:ensure_launched():203] started backend process with pid: 14244
+2021-10-21 22:13:41,019 INFO    MainThread:19932 [wandb_init.py:init():444] backend started and connected
+2021-10-21 22:13:41,022 INFO    MainThread:19932 [wandb_init.py:init():503] updated telemetry
+2021-10-21 22:13:41,056 INFO    MainThread:19932 [wandb_init.py:init():533] communicating current version
+2021-10-21 22:13:43,439 INFO    MainThread:19932 [wandb_init.py:init():538] got version response 
+2021-10-21 22:13:43,439 INFO    MainThread:19932 [wandb_init.py:init():548] communicating run to backend with 30 second timeout
+2021-10-21 22:13:45,112 ERROR   Thread-14 :19932 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\urllib3\connectionpool.py", line 696, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\urllib3\connectionpool.py", line 964, in _prepare_proxy
+    conn.connect()
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\urllib3\connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001E204C27730>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001E204C27730>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\wandb\sdk\internal\internal_api.py", line 141, in execute
+    return self.client.execute(*args, **kwargs)
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Codes\Pytorch-UNet\venv\lib\site-packages\requests\adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001E204C27730>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2021-10-21 22:14:13,452 INFO    MainThread:19932 [interface.py:_communicate_run():903] couldn't get run from backend
+2021-10-21 22:14:13,452 ERROR   MainThread:19932 [wandb_init.py:init():553] backend process timed out
+2021-10-21 22:14:13,452 ERROR   MainThread:19932 [wandb_init.py:init():562] encountered error: Error communicating with wandb process
+try: wandb.init(settings=wandb.Settings(start_method='fork'))
+or:  wandb.init(settings=wandb.Settings(start_method='thread'))
+For more info see: https://docs.wandb.ai/library/init#init-start-error

@@ -1,0 +1,79 @@
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   11
+        Validation size: 1
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: False
+Epoch 1/5:   9%|▉         | 1/11 [00:05<00:58,  5.83s/img, loss (batch)=1.4]
+Epoch 1/5:  18%|█▊        | 2/11 [00:08<00:35,  3.92s/img, loss (batch)=1.28]
+Epoch 1/5:  27%|██▋       | 3/11 [00:10<00:24,  3.01s/img, loss (batch)=0.987]
+Epoch 1/5:  36%|███▋      | 4/11 [00:12<00:18,  2.64s/img, loss (batch)=0.819]
+Epoch 1/5:  45%|████▌     | 5/11 [00:14<00:14,  2.37s/img, loss (batch)=0.801]
+Epoch 1/5:  55%|█████▍    | 6/11 [00:16<00:10,  2.20s/img, loss (batch)=0.777]
+
+Epoch 1/5:  64%|██████▎   | 7/11 [00:18<00:08,  2.06s/img, loss (bINFO: Validation Dice score: 0.4397279918193817
+Epoch 1/5:  73%|███████▎  | 8/11 [00:20<00:06,  2.02s/img, loss (bINFO: Validation Dice score: 0.3986499011516571
+Epoch 1/5:  82%|████████▏ | 9/11 [00:21<00:03,  1.98s/img, loss (bINFO: Validation Dice score: 0.11062855273485184
+Epoch 1/5:  91%|█████████ | 10/11 [00:23<00:01,  1.91s/img, loss (batch)=0.678]
+Epoch 1/5: 100%|██████████| 11/11 [00:25<00:00,  1.93s/img, loss (batch)=0.664]
+Epoch 1/5: 100%|██████████| 11/11 [00:27<00:00,  2.49s/img, loss (batch)=0.664]
+INFO: Checkpoint 1 saved!
+Epoch 2/5:   9%|▉         | 1/11 [00:01<00:12,  1.22s/img, loss (batch)=0.659]
+Epoch 2/5:  18%|█▊        | 2/11 [00:03<00:14,  1.61s/img, loss (batch)=0.663]
+Epoch 2/5:  27%|██▋       | 3/11 [00:05<00:14,  1.81s/img, loss (batch)=0.656]
+Epoch 2/5:  36%|███▋      | 4/11 [00:07<00:13,  1.86s/img, loss (batch)=0.656]
+Epoch 2/5:  45%|████▌     | 5/11 [00:09<00:11,  1.86s/img, loss (batch)=0.662]
+
+Epoch 2/5:  55%|█████▍    | 6/11 [00:10<00:09,  1.85s/img, loss (bINFO: Validation Dice score: 0.011581291444599628
+Epoch 2/5:  64%|██████▎   | 7/11 [00:12<00:07,  1.88s/img, loss (batch)=0.661]
+Epoch 2/5:  73%|███████▎  | 8/11 [00:15<00:05,  1.97s/img, loss (batch)=0.655]
+Epoch 2/5:  82%|████████▏ | 9/11 [00:16<00:03,  1.95s/img, loss (batch)=0.661]
+Epoch 2/5:  91%|█████████ | 10/11 [00:18<00:01,  1.98s/img, loss (batch)=0.661]
+Epoch 2/5: 100%|██████████| 11/11 [00:20<00:00,  1.91s/img, loss (batch)=0.661]
+Epoch 2/5: 100%|██████████| 11/11 [00:22<00:00,  2.07s/img, loss (batch)=0.661]
+INFO: Checkpoint 2 saved!
+Epoch 3/5:   9%|▉         | 1/11 [00:01<00:11,  1.20s/img, loss (bINFO: Validation Dice score: 0.1640625
+Epoch 3/5:  18%|█▊        | 2/11 [00:03<00:13,  1.52s/img, loss (batch)=0.654]
+Epoch 3/5:  27%|██▋       | 3/11 [00:04<00:12,  1.62s/img, loss (batch)=0.654]
+Epoch 3/5:  36%|███▋      | 4/11 [00:06<00:12,  1.73s/img, loss (batch)=0.661]
+Epoch 3/5:  45%|████▌     | 5/11 [00:08<00:10,  1.75s/img, loss (batch)=0.654]
+Epoch 3/5:  55%|█████▍    | 6/11 [00:10<00:08,  1.72s/img, loss (batch)=0.654]
+Epoch 3/5:  64%|██████▎   | 7/11 [00:11<00:07,  1.76s/img, loss (bINFO: Validation Dice score: 0.4645288288593292
+Epoch 3/5:  73%|███████▎  | 8/11 [00:13<00:05,  1.73s/img, loss (bINFO: Validation Dice score: 0.5125046372413635
+Epoch 3/5:  82%|████████▏ | 9/11 [00:15<00:03,  1.77s/img, loss (bINFO: Validation Dice score: 0.5581596493721008
+Epoch 3/5:  91%|█████████ | 10/11 [00:17<00:01,  1.78s/img, loss (batch)=0.66]
+Epoch 3/5: 100%|██████████| 11/11 [00:19<00:00,  1.81s/img, loss (batch)=0.66]
+Epoch 3/5: 100%|██████████| 11/11 [00:20<00:00,  1.91s/img, loss (batch)=0.66]
+INFO: Checkpoint 3 saved!
+Epoch 4/5:   9%|▉         | 1/11 [00:01<00:11,  1.16s/img, loss (batch)=0.66]
+Epoch 4/5:  18%|█▊        | 2/11 [00:03<00:13,  1.54s/img, loss (bINFO: Validation Dice score: 0.728201687335968
+Epoch 4/5:  27%|██▋       | 3/11 [00:04<00:12,  1.62s/img, loss (bINFO: Validation Dice score: 0.7563953995704651
+Epoch 4/5:  36%|███▋      | 4/11 [00:06<00:11,  1.67s/img, loss (batch)=0.652]
+
+Epoch 4/5:  45%|████▌     | 5/11 [00:08<00:10,  1.74s/img, loss (bINFO: Validation Dice score: 0.784966230392456
+Epoch 4/5:  55%|█████▍    | 6/11 [00:10<00:08,  1.73s/img, loss (batch)=0.659]
+Epoch 4/5:  64%|██████▎   | 7/11 [00:11<00:06,  1.74s/img, loss (batch)=0.652]
+Epoch 4/5:  73%|███████▎  | 8/11 [00:13<00:05,  1.75s/img, loss (batch)=0.652]
+Epoch 4/5:  82%|████████▏ | 9/11 [00:15<00:03,  1.76s/img, loss (batch)=0.659]
+Epoch 4/5:  91%|█████████ | 10/11 [00:17<00:01,  1.74s/img, loss (batch)=0.659]
+
+Epoch 4/5: 100%|██████████| 11/11 [00:18<00:00,  1.73s/img, loss (INFO: Validation Dice score: 0.8786141276359558
+Epoch 4/5: 100%|██████████| 11/11 [00:20<00:00,  1.88s/img, loss (batch)=0.651]
+INFO: Checkpoint 4 saved!
+Epoch 5/5:   9%|▉         | 1/11 [00:01<00:12,  1.21s/img, loss (batch)=0.658]
+Epoch 5/5:  18%|█▊        | 2/11 [00:03<00:13,  1.55s/img, loss (batch)=0.658]
+Epoch 5/5:  27%|██▋       | 3/11 [00:04<00:12,  1.62s/img, loss (batch)=0.651]
+Epoch 5/5:  36%|███▋      | 4/11 [00:06<00:11,  1.67s/img, loss (batch)=0.658]
+
+Epoch 5/5:  45%|████▌     | 5/11 [00:08<00:10,  1.69s/img, loss (bINFO: Validation Dice score: 0.9206358194351196
+Epoch 5/5:  55%|█████▍    | 6/11 [00:10<00:08,  1.75s/img, loss (bINFO: Validation Dice score: 0.9285454154014587
+Epoch 5/5:  64%|██████▎   | 7/11 [00:11<00:07,  1.78s/img, loss (bINFO: Validation Dice score: 0.9389137029647827
+Epoch 5/5:  73%|███████▎  | 8/11 [00:13<00:05,  1.77s/img, loss (batch)=0.65]
+Epoch 5/5:  82%|████████▏ | 9/11 [00:15<00:03,  1.75s/img, loss (batch)=0.65]
+Epoch 5/5:  91%|█████████ | 10/11 [00:17<00:01,  1.77s/img, loss (batch)=0.658]
+Epoch 5/5: 100%|██████████| 11/11 [00:18<00:00,  1.76s/img, loss (batch)=0.657]
+Epoch 5/5: 100%|██████████| 11/11 [00:20<00:00,  1.88s/img, loss (batch)=0.657]
