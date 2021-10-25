@@ -49,7 +49,7 @@ def mask2binimg(path, show=False):
                 if show:
                     cv2.imshow('img', img_dst)
                     cv2.waitKey()
-                # 根据制定路径存取二值化图片
+                # 根据指定路径存取二值化图片
                 img_path = filepath + '/imgs/'
                 os_mkdir(img_path)
                 cv2.imwrite(img_path + str(n_name) + '.png', img_dst)
@@ -68,7 +68,7 @@ def mask2binimg(path, show=False):
                     cv2.imshow('dst', dst)
                     if cv2.waitKey(1) & 0xff == ord('q'):
                         break
-                # 根据制定路径存取二值化图片
+                # 根据指定路径存取二值化图片
                 mask_path = filepath + '/masks/'
                 os_mkdir(mask_path)
                 cv2.imwrite(mask_path + str(n_name) + '.png', dst)
@@ -78,7 +78,7 @@ pass
 
 
 if __name__ == '__main__':
-    # 直接处理后将保存在unet的data数据文件夹 注意请提前将labelme的dataset放入此文件夹
+    # 直接处理后将保存在data数据文件夹 注意请提前将labelme的dataset放入此文件夹
     path = 'D:/Codes/Pytorch-UNet/data/'
     mask2binimg(path, False)
 

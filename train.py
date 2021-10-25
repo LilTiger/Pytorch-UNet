@@ -25,7 +25,7 @@ def train_net(net,
               device,
               epochs: int = 5,
               batch_size: int = 1,
-              learning_rate: float = 0.001,
+              learning_rate: float = 0.01,
               val_percent: float = 0.1,
               save_checkpoint: bool = True,
               img_scale: float = 0.5,
@@ -179,14 +179,8 @@ if __name__ == '__main__':
 
     net.to(device=device)
     try:
-        train_net(net=net,
-                  epochs=args.epochs,
-                  batch_size=args.batch_size,
-                  learning_rate=args.lr,
-                  device=device,
-                  img_scale=args.scale,
-                  val_percent=args.val / 100,
-                  amp=args.amp)
+        train_net(net=net, device=device, epochs=args.epochs, batch_size=args.batch_size, learning_rate=args.lr,
+                  val_percent=args.val / 100, img_scale=args.scale, amp=args.amp)
     except KeyboardInterrupt:
         torch.save(net.state_dict(), 'INTERRUPTED.pth')
         logging.info('Saved interrupt')

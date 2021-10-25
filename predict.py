@@ -94,6 +94,7 @@ if __name__ == '__main__':
 
     for i, filename in enumerate(in_files):
         logging.info(f'\nPredicting image {filename} ...')
+        # 若输入图片为四通道，此处需添加.convert('RGB')
         img = Image.open(filename)
 
         mask = predict_img(net=net,
