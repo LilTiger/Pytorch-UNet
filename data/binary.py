@@ -1,10 +1,8 @@
 # 将labelme的json文件批量生成dataset后 执行此文件（注意主函数中的path）
 # 将多通道mask图像批量转换为单通道二值化图像并存放到指定位置
+# 之后执行temp.py
 
 import cv2
-import numpy as np
-import os
-
 import os
 
 
@@ -30,7 +28,6 @@ def os_mkdir(path):
 
 def mask2binimg(path, show=False):
     for root, dirs, files in os.walk(path):
-        print('################################################')
         for name in files:
             # 遍历labelme生成的{x}_json目录
             if len(dirs) == 0:
@@ -79,7 +76,7 @@ pass
 
 if __name__ == '__main__':
     # 直接处理后将保存在data数据文件夹 注意请提前将labelme的dataset放入此文件夹
-    path = 'D:/Codes/Pytorch-UNet/data/'
+    path = '/'
     mask2binimg(path, False)
 
 

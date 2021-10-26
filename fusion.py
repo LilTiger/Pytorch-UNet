@@ -6,8 +6,8 @@ mask = "output.png"
 img1 = cv2.imread(src)
 img2 = cv2.imread(mask)
 
-alpha = 0.5
-meta = 0.5
+alpha = 1
+meta = 0.4
 gamma = 0
 cv2.imshow('img1', img1)
 cv2.imshow('img2', img2)
