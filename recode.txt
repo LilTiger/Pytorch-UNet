@@ -4,4 +4,21 @@
 # 训练集中的图像大小 不必全部相同（不必固定输入图像都为640*480）
   但长宽必须为2的N次方的倍数（此处的N为最大池化层的个数，本程序中down了四次，即 N = 4)
 
-# 注意 数据增强后的mask 可直接temp.py归一化 作为数据集中的mask训练
+# 注意 使用augmentor数据增强后的mask 可直接temp.py归一化 作为数据集中的mask训练
+      使用albumentations数据增强后的mask 需转为为灰度单通道图像 再作为数据集中的mask训练
+
+# 注意 batch_size若不为1 那么每张图片尺寸必须为相同 因此不能在增强中随意使用旋转操作（会将长宽逆置）
+
+ 实验证实 batch_size对实验的结果影响很大 取值为8时 验证集的validation dice score呈显著上升的状态 且能取得不错的分割效果
+
+
+# 在模型的验证部分 计算IoU mIoU等参数时
+    注意 归一化后的mask（也即显示为全黑的mask 通过albumentations可以大量数据增强得到）无法进行对比 但只有归一化才可以是U-Net的输入~
+    tip: labelme生成的label.png可直接作为ground_truth（读取图片后会有二值化操作）
+  关键点：因为训练集中 使用albumentations数据增强后的mask为全黑 因此无法使用增强后的数据的mask和predict的该图片的mask统计IoU mIoU
+        因此 ·最好的方法是 计算 测试集中 手工标注后的mask和predict得到的mask的并交比等参数
+        （如果真的需要验证增强数据的鲁棒性 注意augmentor生成的mask为视觉可见的mask 可利用此来跟predict的mask做对比）
+
+# predict.py做过更改 可以读取一整个文件夹的测试集并保存输出
+    注意图片的输入格式 若不为jpg 需做更改
+    (若在terminal执行predict.py后无结果 注意查看 指令 和 测试集 中的图片格式）

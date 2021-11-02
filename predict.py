@@ -1,6 +1,7 @@
 import argparse
 import logging
 import os
+import glob
 
 import numpy as np
 import torch
@@ -11,6 +12,7 @@ from torchvision import transforms
 from utils.data_loading import BasicDataset
 from unet import UNet
 from utils.utils import plot_img_and_mask
+
 
 def predict_img(net,
                 full_img,
@@ -79,7 +81,6 @@ def mask_to_image(mask: np.ndarray):
 if __name__ == '__main__':
     args = get_args()
     in_files = args.input
-    out_files = get_output_filenames(args)
 
     net = UNet(n_channels=3, n_classes=2)
 
@@ -92,7 +93,12 @@ if __name__ == '__main__':
 
     logging.info('Model loaded!')
 
-    for i, filename in enumerate(in_files):
+    # 如果想要读取一整个文件夹的测试集 然后输出结果
+    # 下面的语句 将in_files列表转化为字符串 故terminal指令中输入带引号的路径 格式如 ‘./test./*.png'
+    file_list = glob.glob(''.join(in_files))
+
+    for i, filename in enumerate(file_list):
+
         logging.info(f'\nPredicting image {filename} ...')
         # 若输入图片为四通道，此处需添加.convert('RGB')
         img = Image.open(filename)
@@ -104,10 +110,11 @@ if __name__ == '__main__':
                            device=device)
 
         if not args.no_save:
-            out_filename = out_files[i]
+            # 设定输出并保存分割后的图片
             result = mask_to_image(mask)
-            result.save(out_filename)
-            logging.info(f'Mask saved to {out_filename}')
+            # 注意 如果测试集图像格式不为jpg 更改以下参数
+            result.save(filename.replace('.jpg', '') + '_out.jpg')
+            logging.info(f'Mask saved to {mask}')
 
         if args.viz:
             logging.info(f'Visualizing results for image {filename}, close to continue...')

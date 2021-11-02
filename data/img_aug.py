@@ -30,7 +30,8 @@ for jpg_file in glob.glob('./imgs/*.png'):
     # 向列表中添加元素
     img_list.append(cv2.imread(jpg_file))
     # 每张图片增强十次
-    for i in range(1):
+    for i in range(10):
         imgs_aug = seq.augment_images(img_list)
         for img in enumerate(imgs_aug):
+            # 此时增强后的十张图片合并入imgs中的训练数据集
             cv2.imwrite(jpg_file.replace('.png', '') + '_' + str(i) + '.png', img)

@@ -8,13 +8,14 @@ import glob
 transform = A.Compose([
     A.HorizontalFlip(p=0.5),
     A.RandomBrightnessContrast(p=0.4),
-    A.RandomRotate90(p=0.4),
     # 在保持图片大小不变的情况下随机crop
     A.RandomSizedCrop(min_max_height=(420, 460), height=480, width=640, p=0.4),
+    # 在保持图片大小不变的情况下随机平移 缩放 或旋转
+    A.ShiftScaleRotate(shift_limit=0.0625, scale_limit=0.1, rotate_limit=45, p=0.4),
     A.OneOf([
         # always_apply与p=的作用相同 二者不必同时使用（暂定）
         A.GaussianBlur(blur_limit=(3, 7), always_apply=False, p=0.4),
-        A.Sharpen(alpha=(0.2, 0.5), lightness=(0.5, 1.0), p=0.2),
+        A.Sharpen(alpha=(0.2, 0.5), lightness=(0.5, 1.0), p=0.4),
              ])
 ])
 
@@ -36,13 +37,14 @@ for jpg in glob.glob(path):
         if str(jpg_file) == str(mask_file):
             # 去除图片名中的后缀.png 以生成*_i.png形式的image和mask
             a = str(jpg_file).split('.')[0]
-            for i in range(20):
+            for i in range(100):
                 transformed = transform(image=image, mask=mask)
                 transformed_image = transformed['image']
                 transformed_mask = transformed['mask']
+                # 注意此处增强后的mask需转换为灰度图
                 transformed_mask = cv2.cvtColor(transformed_mask, cv2.COLOR_RGB2GRAY)
 
-                cv2.imwrite('./img1/' + str(a) + '_' + str(i) + '.png', transformed_image)
-                cv2.imwrite('./mask1/' + str(a) + '_' + str(i) + '.png', transformed_mask)
+                cv2.imwrite('./img_aug/' + str(a) + '_' + str(i) + '.png', transformed_image)
+                cv2.imwrite('./mask_aug/' + str(a) + '_' + str(i) + '.png', transformed_mask)
 
-
+print("Augmentation finished.")
